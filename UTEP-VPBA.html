@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE ]> <html class="no-js IE"> <![endif]-->
+<!--[if IE ]> <html class="no-js IE"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="header" class="invertedBlack">
+            <div class="containerNarrow">
+                <h1><a href="index.html">Edgarr / Interaction Designer</a></h1>
+                <div>
+                    <ul class="nav">
+                    </ul>
+                </div>
+            </div><!-- /containerNarrow -->
+        </div><!-- #header -->
+
+        <div class="mainContent section vpbaBlueSection center">
+            <div class="containerNarrow slideInBT">
+                <h1>Websites for UTEP VPBA Division</h1>
+                <p class="intro">Here at The VPBA Office I am responsible for the design and maintenance of the websites under The VPBA Division.</p>
+                <div class="browserWindow">
+                    <div class="browserCircle"></div><div class="browserCircle"></div><div class="browserCircle"></div>
+                    <img src="img/ptsScreenshot.jpg">
+                </div>
+            </div><!-- /containerNarrow -->
+        </div><!-- /mainContent vpbaBlueSection -->
+
+        <div class="mainContent section invertedBlack breakColMobile">
+            <div class="container">
+                <h2>Handcrafted a fast HTML/LESS/JS framework</h2>
+                <hr>
+                <div class="oneHalf">
+                    <p>Instead of getting the most popular framework, full of features, with dozens of custom HTML/CSS/JS components, multiple plugins, that will work on every device; we opted for a more minimalistic apprach. We decided to create our own framework based on our audience with only the features we needed.</p>
+                    <p>This resulted in a clean, simple and fast framework.</p>
+                    <p>We carefuly created a modular CSS structure. Below is a simple example of how we apprached writting the CSS.</p>
+                </div><!-- /oneHalf -->
+                <div class="oneHalf gridLast">
+                    <h3>Code Sample</h3>
+                    <h3>CSS:</h3>
+                    <div class="codeSample">
+                        <span class="cssSel">.btn</span> {<br>
+                            <span class="elIndent cssContent">background-color: @vpbaBlue;</span><br>
+                            <span class="elIndent cssContent">border-radius: 20px;</span><br>
+                            <span class="elIndent cssContent">border: none;</span><br>
+                            <span class="elIndent cssContent">color: @white;</span><br>
+                            <span class="elIndent cssContent">display: inline-block;</span><br>
+                            <span class="elIndent cssContent">padding: 8px 20px;</span><br>
+                            <span class="elIndent cssContent">text-align: center;</span><br>
+                            <span class="elIndent cssContent">text-decoration: none;</span><br>
+                        }<br>
+                        <span class="cssSel">.btn:hover</span> {<br>
+                            <span class="elIndent cssContent">background-color: @grayDarkest;</span><br>
+                        }<br>
+                        <span class="cssSel">.primaryBtn</span> {<br>
+                            <span class="elIndent cssContent">.uppercase;</span><br>
+                            <span class="elIndent cssContent">.boxShadow;</span><br>
+                            <span class="elIndent cssContent">background-color: @vpbaOrange;</span><br>
+                        }<br>
+                        <span class="cssSel">.primaryBtn:hover</span> {<br>
+                            <span class="elIndent cssContent">background-color: @vpbaOrangeHover;</span><br>
+                            <span class="elIndent cssContent">text-decoration: none;</span><br>
+                        }<br>
+                        <span class="cssSel">.btnMed</span> {<br>
+                            <span class="elIndent cssContent">font-size: 14px;</span><br>
+                            <span class="elIndent cssContent">padding: 4px 10px;</span><br>
+                        }<br>
+                        <span class="cssSel">.btnDisabled</span> {<br>
+                            <span class="elIndent cssContent">background-color: @grayLight;</span><br>
+                            <span class="elIndent cssContent">color: @grayDark;</span><br>
+                        }<br>
+                        <span class="cssSel">.btnDisabled:hover</span> {<br>
+                            <span class="elIndent cssContent">background-color: @grayLight;</span><br>
+                        }
+                    </div><!-- /codeSample -->
+
+                    <h3>HTML:</h3>
+                    <div class="codeSample">
+                        <span class="htmlTag">&#x3c;p&#x3e;</span><br>
+                            <span class="elIndent"><span class="htmlTag">&#x3c;a href="<span class="laClase">#</span>" class="<span class="laClase">btn</span>"&#x3e;</span>Secondary Button<span class="htmlTag">&#x3c;/a&#x3e;</span></span><br>
+                            <span class="elIndent"><span class="htmlTag">&#x3c;a href="<span class="laClase">#</span>" class="<span class="laClase">btn primaryBtn</span>"&#x3e;</span>Primary Button<span class="htmlTag">&#x3c;/a&#x3e;</span></span><br>
+                            <span class="elIndent"><span class="htmlTag">&#x3c;a href="<span class="laClase">#</span>" class="<span class="laClase">btn btnDisabled</span>"&#x3e;</span>Disabled Button<span class="htmlTag">&#x3c;/a&#x3e;</span></span><br>
+                        <span class="htmlTag">&#x3c;/p&#x3e;</span><br>
+                        <span class="htmlTag">&#x3c;p&#x3e;</span><br>
+                            <span class="elIndent"><span class="htmlTag">&#x3c;a href="<span class="laClase">#</span>" class="<span class="laClase">btn btnMed</span>"&#x3e;</span>Middle Button<span class="htmlTag">&#x3c;/a&#x3e;</span></span><br>
+                            <span class="elIndent"><span class="htmlTag">&#x3c;a href="<span class="laClase">#</span>" class="<span class="laClase">btn primaryBtn btnMed</span>"&#x3e;</span>Middle Primary Button<span class="htmlTag">&#x3c;/a&#x3e;</span></span><br>
+                            <span class="elIndent"><span class="htmlTag">&#x3c;a href="<span class="laClase">#</span>" class="<span class="laClase">btn btnMed btnDisabled</span>"&#x3e;</span>Middle Dissabled Button<span class="htmlTag">&#x3c;/a&#x3e;</span></span><br>
+                        <span class="htmlTag">&#x3c;/p&#x3e;</span>
+                    </div><!-- /codeSample -->
+                    <hr>
+                    <h3>Result:</h3>
+                    <p class="utepBtns">
+                        <a href="" class="btn">Secondary Button</a>
+                        <a href="" class="btn primaryBtn">Primary Button</a>
+                        <a href="" class="btn btnDisabled">Disabled Button</a>
+                    </p>
+                    <p class="utepBtns">
+                        <a href="" class="btn btnMed">Middle Button</a>
+                        <a href="" class="btn primaryBtn btnMed">Middle Primary Button</a>
+                        <a href="" class="btn btnMed btnDisabled">Middle Dissabled Button</a>
+                    </p>
+                </div><!-- /oneHalf gridLast -->
+            </div><!-- /container -->
+        </div><!-- /MainContent -->
+        <div class="mainContent section breakColMobile">
+            <div class="container">
+                <h2>Colors</h2>
+                <hr>
+                <p>Colors were chosen from The University Identity guide. We declared the colors as LESS variables, and then used those colors for for all the elements such as the headings, paragraphs, buttons, links, borders and backgrounds.</p>
+                <div class="oneThird">
+                    <h3>LESS Color Variables:</h3>
+                    <p>
+                    @white: #fff;<br>
+                    @blue: #036;<br>
+                    @blueHover: #102f4e;<br>
+                    @blueMed: #004890;<br>
+                    @orange: #ff5600;<br>
+                    @orangeHover: #e15a00;<br>
+                    @grayDark: #555;<br>
+                    @grayDarkest: #232323;<br>
+                    @grayMed: #666;<br>
+                    @gray: #ddd;<br>
+                    @grayLight: #eee;<br>
+                    @grayLightest: #fcfcfc;<br>
+                    @linkBlue: #008cba;<br>
+                    @linkBlueHover: #03556e;
+                    </p>
+                </div><!-- /oneThird -->
+                <div class="twoThirds gridLast">
+                    <div class="browserWindow vpbaColorTooltips">
+                        <div class="vppbacolor blueTP">blue</div>
+                        <div class="vppbacolor blueMedTP">blueMed</div>
+                        <div class="vppbacolor grayLightestTP">grayLightest</div>
+                        <div class="vppbacolor grayDarkTP">grayDark</div>
+                        <div class="vppbacolor grayDarkestTP">grayDarkest</div>
+                        <div class="vppbacolor orangeTP">orange</div>
+                        <div class="vppbacolor whiteTP">white</div>
+                        <div class="browserCircle"></div><div class="browserCircle"></div><div class="browserCircle"></div>
+                        <img src="img/vpba/colorsTooltips.jpg" alt="Colors">
+                    </div>
+                    
+                </div><!-- /twoThirds gridLast -->
+            </div><!-- /container -->
+        </div><!-- /MainContent -->
+
+        <div class="mainContent section invertedBlack breakColMobile">
+            <div class="container">
+                <h2>Grid System</h2>
+                <hr>
+                <p>We needed a responsive grid system. However, it needed to be compatible with old IE7 and 8, since many of our users still use these versions.</p>
+                <p>Our approach is very simple. Since IE7 & 8 don’t support media queries, the “desktop view”  works in all supported browsers (old and modern). While all the CSS inside media queries for smaller screens will be ignored by old IE version, and used by modern browsers (including browsers of mobile devices).</p>
+                <h3>Containers</h3>
+                <div class="oneHalf">
+                    <p>The grid has two types of containers. A wide one, and a narrow one. The narrow container’s max width is 767px.</p>
+                </div>
+                <div class="oneHalf gridLast">
+                    <p>
+                    <div class="codeSample">
+                    <span class="codeComment">/*Grid Containers*/</span><br>
+                    <span class="cssSel">.container</span> {<br>
+                        <span class="elIndent cssContent">margin: 0 auto;</span><br>
+                        <span class="elIndent cssContent">width: 1170px;</span><br>
+                    }<br>
+                    <span class="cssSel">.containerNarrow</span> {<br>
+                        <span class="elIndent cssContent">margin: 0 auto;</span><br>
+                        <span class="elIndent cssContent">width: 767px;</span><br>
+                    }<br>
+                    <span class="htmlTag">@media(min-width: 992px)and(max-width: 1199px)</span> {<br>
+                        <span class="elIndent cssSel">.container</span> {<br>
+                            <span class="elIndentL2 cssContent">width: 970px;</span><br>
+                        <span class="elIndent">}</span><br>
+                    }<br>
+                    <span class="htmlTag">@media(min-width: 768px)and(max-width: 991px)</span> {<br>
+                        <span class="elIndent cssSel">.container</span>,<br>
+                        <span class="elIndent cssSel">.containerNarrow</span> {<br>
+                            <span class="elIndentL2 cssContent">width: 750px;</span><br>
+                        <span class="elIndent">}</span><br>
+                    }<br>
+                    <span class="htmlTag">@media(max-width: 767px)</span> {<br>
+                        <span class="elIndent cssSel">.container</span>,<br>
+                        <span class="elIndent cssSel">.containerNarrow</span> {<br>
+                            <span class="elIndentL2 cssContent">margin: 0 auto;</span><br>
+                            <span class="elIndentL2 cssContent">width: 90%;</span><br>
+                        <span class="elIndent">}</span><br>
+                    }
+                    </div><!-- /codeSample -->
+                    </p>
+                </div><!-- /oneHalf gridLast -->
+                <h3>Columns</h3>
+                <div class="oneHalf">
+                    <p>The grid has two types of containers. A wide one, and a narrow one. The narrow container’s max width is 767px.</p>
+                </div>
+                <div class="oneHalf gridLast">
+                    <p>
+                    <div class="codeSample">
+                    <span class="cssSel">.oneHalf</span> {<br>
+                        <span class="elIndent cssContent">float: left;</span><br>
+                        <span class="elIndent cssContent">margin-right: 2%;</span><br>
+                        <span class="elIndent cssContent">width: 49%;</span><br>
+                    }<br>
+                    <span class="cssSel">.oneThird</span> {<br>
+                        <span class="elIndent cssContent">float: left;</span><br>
+                        <span class="elIndent cssContent">margin-right: 2%;</span><br>
+                        <span class="elIndent cssContent">width: 32%;</span><br>
+                    }<br>
+                    <span class="cssSel">.twoThirds</span> {<br>
+                        <span class="elIndent cssContent">float: left;</span><br>
+                        <span class="elIndent cssContent">margin-right: 2%;</span><br>
+                        <span class="elIndent cssContent">width: 66%;</span><br>
+                    }<br>
+                    <span class="cssSel">.oneFourth</span> {<br>
+                        <span class="elIndent cssContent">float: left;</span><br>
+                        <span class="elIndent cssContent">margin-right: 2%;</span><br>
+                        <span class="elIndent cssContent">width: 23.5%;</span><br>
+                    }<br>
+                    <span class="cssSel">.oneFifth</span> {<br>
+                        <span class="elIndent cssContent">float: left;</span><br>
+                        <span class="elIndent cssContent">margin-right: 2%;</span><br>
+                        <span class="elIndent cssContent">width: 18.4%;</span><br>
+                    }<br>
+                    <span class="cssSel">.gridLast</span> {<br>
+                        <span class="elIndent cssContent">margin-right: 0;</span><br>
+                    }<br>
+                    <span class="htmlTag">@media(max-width: 767px)</span> {<br>
+                        <span class="elIndent cssSel">.breakColMobile</span> {<br>
+                            <span class="elIndentL2 cssContent">width: 100%;</span><br>
+                            <span class="elIndentL2 cssContent">margin-right: 0;</span><br>
+                            <span class="elIndentL2 cssContent">float: none;</span><br>
+                            <span class="elIndentL2 cssSel">.oneHalf</span>,<br>
+                            <span class="elIndentL2 cssSel">.oneThird</span>,<br>
+                            <span class="elIndentL2 cssSel">.twoThirds</span>,<br>
+                            <span class="elIndentL2 cssSel">.oneFourth</span>,<br>
+                            <span class="elIndentL2 cssSel">.oneFifth</span>,<br>
+                            <span class="elIndentL2 cssSel">.twoFifths</span>  {<br>
+                                <span class="elIndentL3 cssContent">width: 100%;</span><br>
+                                <span class="elIndentL3 cssContent">float: none;</span><br>
+                                <span class="elIndentL3 cssContent">margin-right: 0;</span><br>
+                            <span class="elIndentL2">}</span><br>
+                        <span class="elIndent">}</span><br>
+                    }
+                    </div><!-- /codeSample -->
+                    </p>
+                </div><!-- /oneHalf gridLast -->
+            </div><!-- /container -->
+        </div><!-- /MainContent -->
+
+        <div class="mainContent section breakColMobile">
+            <div class="container">
+                <h2>Design Process</h2>
+                <div class="oneThird">
+                        <p>We implemented a design process that alowed us to get things done. The design process we implemented allowed us to define a timeline, limit the rounds of feedback, and create deadlines for me and the site owners.</p>
+                </div><!-- /oneThird -->
+                <div class="twoThirds gridLast">
+                    <table class="coloredHeadingsTable">
+                        <thead>
+                            <tr>
+                                <th>Implementation Process Stage</th>
+                                <th>Parties involved</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1. Planning</td>
+                                <td>Implementation Team & Site Owner</td>
+                                <td>
+                                    <ul>
+                                        <li>Define Requirements</li>
+                                        <li>Gather and Create Content</li>
+                                        <li>Build Wireframes or Prototype</li>
+                                        <li>Get Site Owner Approval</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2. Design</td>
+                                <td>Implementation Team</td>
+                                <td>
+                                    <ul>
+                                        <li>Create high-fidelity mockups (only if needed).</li>
+                                        <li>Create visual design assets for the website.</li>
+                                        <li>Export visual assets.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3. Development</td>
+                                <td>Implementation Team</td>
+                                <td>
+                                <ul>
+                                    <li>Create website in a test environment</li>
+                                    <li>Create Pages</li>
+                                    <li>Write HTML,CSS, and JS</li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4. Feedback</td>
+                                <td>Implementation Team & Site Owner</td>
+                                <td>
+                                    <ul>
+                                        <li>Presentation of the site in a test environment.</li>
+                                        <li>Site Owner will provide one round of consolidated and documented feedback (all feedback written in a document file). Limiting the rounds of feedback allow us to complete the project more efficiently and faster. This makes both parties happier. Also the product here is not a surprise for the site owner since in stage 1, the site owner approved either wireframes or a prototype and agreed on the requirements and functionality.</li>
+                                        <li>Will request approval from Site Owner to publish the site.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5. Testing</td>
+                                <td>Implementation Team</td>
+                                <td>
+                                    <ul>
+                                        <li>Test in supported browsers and devices (recommended support: IE7*, IE8*, IE9*, IE10*, IE11, Safari, Firefox, Chrome, iOS, and Android.<br>*=Functional support only (it works properly but some visual elements are not supported - like animations, rounded corners, box-shadows...)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6. Site Launch</td>
+                                <td>Implementation Team</td>
+                                <td>
+                                    <ul>
+                                        <li>Publish the site in the production environment.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7. Go-Live QA</td>
+                                <td>Implementation Team</td>
+                                <td>
+                                    <ul>
+                                        <li>Extra round of testing to verify everything was published correctly</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- /twoThirds gridLast -->
+            </div><!-- /container -->
+        </div><!-- /MainContent -->
+
+        <div class="mainContent section invertedBlack breakColMobile">
+            <div class="container">
+                <h2>Basic Styles</h2>
+                <div class="oneThird">
+                    <p>We identified the most used elements when creating content. We predesigned them in a way that these elements were available for the website editors.</p>
+                </div><!-- /oneThird -->
+                <div class="twoThirds gridLast">
+                    <div class="flexslider workGallery">
+                        <ul class="slides">
+                            <li>
+                                <p class="wgTitle">Page Title and intoduction paragrah.</p>
+                                <img src="img/vpba/basicStylesPageTitleAndIntro.gif" alt="Page Title and intoduction paragrah." title="Page Title and intoduction paragrah.">
+                            </li>
+                            <li>
+                                <p class="wgTitle">Headings and paragrahs.</p>
+                                <img src="img/vpba/bsHeadnigsParagraphs.gif" alt="Headings and paragrahs." title="Headings and paragrahs.">
+                            </li>
+                            <li>
+                                <p class="wgTitle">Home Highlights</p>
+                                <img src="img/vpba/basicStylesHomeHighlights.gif" alt="Home Highlights" title="Home Highlights">
+                            </li>
+                            <li>
+                                <p class="wgTitle">Links and Buttons</p>
+                                <img src="img/vpba/bsLinksButtons.gif" alt="Links and Buttons" title="Links and Buttons">
+                            </li>
+                            <li>
+                                <p class="wgTitle">Alerts</p>
+                                <img src="img/vpba/bsAlerts.gif" alt="Alerts" title="Alerts">
+                            </li>
+                            <li>
+                                <p class="wgTitle">Tables</p>
+                                <img src="img/vpba/bsTable.gif" alt="Tables" title="Tables">
+                            </li>
+                            <li>
+                                <p class="wgTitle">Lists</p>
+                                <img src="img/vpba/bsResourcesList.gif" alt="Lists" title="Lists">
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- /oneThird gridLast -->
+            </div><!-- /container -->
+        </div><!-- /MainContent -->
+
+        <div class="mainContent section">
+            <div class="containerNarrow">
+                <h2>Basic Templates</h2>
+                    <p>Based on our experience, we created templates for the most used pages in our websites. These templates allowed us to standardize the User Experience throughout our websites, reduce the implementation time, and to focus on the content rather than development.</p>
+                    <div class="flexslider workGallery">
+                        <ul class="slides">
+                            <li>
+                                <p class="wgTitle">Homepage Template</p>
+                                <div class="wgContent">
+                                    <div class="oneHalf">
+                                        <p class="pictureFrame"><img src="img/vpba/templateHomePTS.jpg" alt="Home Page Template" title="Home Page Template"></p>
+                                    </div>
+                                    <div class="oneHalf gridLast">
+                                        <p class="pictureFrame"><img src="img/vpba/templateHomeMinerGold.jpg" alt="Home Page Template" title="Home Page Template"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="wgTitle">About Us Template</p>
+                                <div class="wgContent">
+                                    <div class="oneHalf">
+                                        <p class="pictureFrame"><img src="img/vpba/templateAboutABS.jpg" alt="About Us" title="About Us"></p>
+                                    </div>
+                                    <div class="oneHalf gridLast">
+                                        <p class="pictureFrame"><img src="img/vpba/templateAboutPTS.jpg" alt="About Us" title="About Us"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="wgTitle">Left Side Bar Template</p>
+                                <div class="wgContent">
+                                    <div class="oneHalf">
+                                        <p class="pictureFrame"><img src="img/vpba/templateLeftSBABS.jpg" alt="Left Side Bar Template" title="Left Side Bar Template"></p>
+                                    </div>
+                                    <div class="oneHalf gridLast">
+                                        <p class="pictureFrame"><img src="img/vpba/templateLeftSBPayroll.jpg" alt="Left Side Bar Template" title="Left Side Bar Template"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="wgTitle">Left Side Bar Template</p>
+                                <div class="wgContent">
+                                    <div class="oneHalf">
+                                        <p class="pictureFrame"><img src="img/vpba/templateRightSBVPBABusinessProcessGuidelines.jpg" alt="Left Side Bar Template" title="Left Side Bar Template"></p>
+                                    </div>
+                                    <div class="oneHalf gridLast">
+                                        <p class="pictureFrame"><img src="img/vpba/templateRightSBHOPS1Ch1.jpg" alt="Left Side Bar Template" title="Left Side Bar Template"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="wgTitle">FAQs Template</p>
+                                <div class="wgContent">
+                                    <div class="oneHalf">
+                                        <p class="pictureFrame"><img src="img/vpba/templateFAQsFM.jpg" alt="FAQs Template" title="FAQs Template"></p>
+                                    </div>
+                                    <div class="oneHalf gridLast">
+                                        <p class="pictureFrame"><img src="img/vpba/templateFAQsPayroll.jpg" alt="FAQs Template" title="FAQs Template"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="wgTitle">Contact Us Template</p>
+                                <div class="wgContent">
+                                    <div class="oneHalf">
+                                        <p class="pictureFrame"><img src="img/vpba/templateContactUsPayroll.jpg" alt="Contact Us Template" title="Contact Us Template"></p>
+                                    </div>
+                                    <div class="oneHalf gridLast">
+                                        <p class="pictureFrame"><img src="img/vpba/templateContactUsPTS.jpg" alt="Contact Us Template" title="Contact Us Template"></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+            </div><!-- /containerNarrow -->
+        </div><!-- /MainContent -->
+
+        <div class="mainContent">
+            <div class="container">
+                <h3>Iconography</h3>
+                <p>[insert icons]</p>
+                <h3>UI Patterns</h3>
+                <p>Main Navigation, SideBar Navigation, Calendars, News, back to top</p>
+                <h3>Content Organization</h3>
+                <h3>Responsive Design</h3>
+                <p>Media queries</p>
+                <p>[show braking points]</p>
+                <p>Large background images only on desktop</p>
+                <p>You can stack or not columns</p>
+                <p>IE7 compatible</p>
+            </div><!-- /container -->
+        </div><!-- /MainContent -->
+       
+
+
+        <div id="footer">
+        </div><!-- /footer -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/flexslider.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- LoadIncludes -->
+        <script>
+            $( ".nav" ).load( "includes/nav.html" );
+            $( "#footer" ).load( "includes/footer.html" );
+        </script>
+
+        <!-- FlexSliderHook -->
+        <link rel="stylesheet" href="css/flexSlider.css">
+        <script>
+        $('.flexslider').flexslider({
+            prevText: " ",
+            nextText: " ",
+            pauseOnHover: true
+        });
+        </script>
+
+    </body>
+</html>

@@ -16,7 +16,7 @@
     <body>
         <div id="header" class="invertedBlack">
             <div class="containerNarrow">
-                <h1><a href="index.html">Edgarr / Interaction Designer</a></h1>
+                <h1><a href="index.html"><img src="img/edgarr.png" alt="Edgarr / Interaction Designer" title="Edgarr / Interaction Designer" width="48"></a></h1>
                 <div>
                     <ul class="nav">
                     </ul>
@@ -24,25 +24,14 @@
             </div><!-- /containerNarrow -->
         </div><!-- #header -->
 
-        <div class="mainContent">
+        <div class="mainContent section homeHero invertedBlack">
             <div class="containerNarrow">
-                <h1>About</h1>
                 <p class="intro">I design and build websites with a focus on good experience and performance. Currently I am working at The University of Texas at El Paso.</p>
-                <p><a href="about.html">Learn More</a></p>
-                <hr>
-                <h1>Work</h1>
-                <p><a href="UTEP-VPBA.html">Websites for UTEP VPBA Division</a></p>
-                <p><a href="UIDesignAtBV.html">User Interface Design at Bazaarvoice</a></p>
-                <p><a href="UX-UIDesignAtMobi.html">User Experienece and Interface Design for Windows Phone Apps at Mobi</a></p>
-                <hr>
-                <h1>Side Projects</h1>
-                <p>CEW Maps</p>
-                <p>jQuery Email Generator</p>
-                <p>Google Analytics Dashboard</p>
+                <p><a href="about.html">Learn More About Me</a></p>
             </div>
         </div><!-- /MainContent -->
-       
 
+        <div class="elWork"></div>
 
         <div id="footer">
         </div><!-- /footer -->
@@ -55,6 +44,7 @@
         <!-- LoadIncludes -->
         <script>
             $( ".nav" ).load( "includes/nav.html" );
+            $( ".elWork" ).load( "includes/workInclude.html" );
             $( "#footer" ).load( "includes/footer.html" );
         </script>
         <script src="js/main.js"></script>

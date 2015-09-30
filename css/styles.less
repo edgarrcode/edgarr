@@ -57,6 +57,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 .borderGray {
 	border: 1px solid @gray;
 }
+.breakWord {
+	word-wrap: break-word;
+}
 .boxShadow {
 	box-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
@@ -407,12 +410,15 @@ td, th {
 		font-size:20px;
 		font-weight:200;
 		float: left;
-		padding: 10px 0;
+		img {
+			display: block;
+		}
 	}
 }
 /*nav*/
 .nav {
 	float: right;
+	margin: 0;
 	overflow: hidden;
 	padding-left: 0;
 	li {
@@ -420,7 +426,7 @@ td, th {
 		list-style: none;
 		a {
 			display: block;
-			padding: 10px;
+			padding: 25px 10px;
 		}
 		ul {
 			background-color: @grayLight;
@@ -487,6 +493,11 @@ td, th {
 	}
 }
 /*--------------------------- SinglePages ---*/
+/*home*/
+.homeHero {
+    background: url(../img/homeBg.png) #222;
+    background-size: 42px;
+}
 /*UTEP VPBA*/
 .vpbaBlueSection {
 	background-color: @vpbaBlueHover;
@@ -684,3 +695,7 @@ td, th {
 	}
 }
 
+/*BV*/
+.imgGrayBorder {
+	border: 1px solid @gray;
+} 

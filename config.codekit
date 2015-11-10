@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "18902",
 "files": {
 	"\/about.html": {
 		"fileType": 8192,
@@ -41,7 +41,7 @@
 		"outputAbbreviatedPath": "\/css\/flexSlider.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
@@ -70,7 +70,7 @@
 		"outputAbbreviatedPath": "\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
@@ -266,6 +266,17 @@
 		"initialSize": 4109,
 		"inputAbbreviatedPath": "\/img\/bv\/pagination2.jpg",
 		"outputAbbreviatedPath": "\/img\/bv\/pagination2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bvUIDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243077,
+		"inputAbbreviatedPath": "\/img\/bvUIDesign.png",
+		"outputAbbreviatedPath": "\/img\/bvUIDesign.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -483,7 +494,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5936,
+		"initialSize": 6124,
 		"inputAbbreviatedPath": "\/img\/vpba\/icon-hl-aboutUs.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/icon-hl-aboutUs.png",
 		"outputPathIsOutsideProject": 0,
@@ -494,7 +505,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3460,
+		"initialSize": 3658,
 		"inputAbbreviatedPath": "\/img\/vpba\/icon-hl-contactUs.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/icon-hl-contactUs.png",
 		"outputPathIsOutsideProject": 0,
@@ -516,7 +527,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2469,
+		"initialSize": 2620,
 		"inputAbbreviatedPath": "\/img\/vpba\/icon-hl-FAQs.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/icon-hl-FAQs.png",
 		"outputPathIsOutsideProject": 0,
@@ -527,7 +538,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12925,
+		"initialSize": 12756,
 		"inputAbbreviatedPath": "\/img\/vpba\/icon-hl-GoGreen.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/icon-hl-GoGreen.png",
 		"outputPathIsOutsideProject": 0,
@@ -703,7 +714,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4609,
+		"initialSize": 4711,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconABS-inventory.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconABS-inventory.png",
 		"outputPathIsOutsideProject": 0,
@@ -802,7 +813,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2932,
+		"initialSize": 2918,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-autoServices.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-autoServices.png",
 		"outputPathIsOutsideProject": 0,
@@ -813,7 +824,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2318,
+		"initialSize": 2301,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-construction.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-construction.png",
 		"outputPathIsOutsideProject": 0,
@@ -824,7 +835,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1584,
+		"initialSize": 1580,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-custodialServices.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-custodialServices.png",
 		"outputPathIsOutsideProject": 0,
@@ -835,7 +846,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1811,
+		"initialSize": 1803,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-eventSupport.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-eventSupport.png",
 		"outputPathIsOutsideProject": 0,
@@ -846,7 +857,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2123,
+		"initialSize": 2116,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-groundsAndLandscaping.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-groundsAndLandscaping.png",
 		"outputPathIsOutsideProject": 0,
@@ -857,7 +868,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3026,
+		"initialSize": 3031,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-hvac.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-hvac.png",
 		"outputPathIsOutsideProject": 0,
@@ -868,7 +879,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3269,
+		"initialSize": 3230,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-keElectronicAccess.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-keElectronicAccess.png",
 		"outputPathIsOutsideProject": 0,
@@ -879,7 +890,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2783,
+		"initialSize": 2717,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-motorPool.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-motorPool.png",
 		"outputPathIsOutsideProject": 0,
@@ -890,7 +901,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2186,
+		"initialSize": 2176,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-newSpaces.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-newSpaces.png",
 		"outputPathIsOutsideProject": 0,
@@ -901,7 +912,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2120,
+		"initialSize": 2111,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-pestControl.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-pestControl.png",
 		"outputPathIsOutsideProject": 0,
@@ -912,7 +923,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3319,
+		"initialSize": 3299,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-repairAndMaintenance.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-repairAndMaintenance.png",
 		"outputPathIsOutsideProject": 0,
@@ -923,7 +934,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4573,
+		"initialSize": 4576,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-spacialData.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-spacialData.png",
 		"outputPathIsOutsideProject": 0,
@@ -945,7 +956,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2539,
+		"initialSize": 2522,
 		"inputAbbreviatedPath": "\/img\/vpba\/iconFacilities-wasteManagement.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/iconFacilities-wasteManagement.png",
 		"outputPathIsOutsideProject": 0,
@@ -1271,6 +1282,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/vpba\/ss-abs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131065,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-abs.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-abs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-budget.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128040,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-budget.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-budget.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-hoop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145226,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-hoop.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-hoop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-minerGoldCard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166010,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-minerGoldCard.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-minerGoldCard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-parking.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148649,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-parking.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-parking.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-payroll.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89699,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-payroll.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-payroll.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-printCopyMail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92976,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-printCopyMail.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-printCopyMail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-spa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121159,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-spa.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-spa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-travel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107891,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-travel.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-travel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpba\/ss-vpba.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139677,
+		"inputAbbreviatedPath": "\/img\/vpba\/ss-vpba.png",
+		"outputAbbreviatedPath": "\/img\/vpba\/ss-vpba.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vpba\/templateAboutABS.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1443,6 +1564,17 @@
 		"initialSize": 5559,
 		"inputAbbreviatedPath": "\/img\/vpba\/vpba-PURCHASING-and-GENERAL-SERVICES.png",
 		"outputAbbreviatedPath": "\/img\/vpba\/vpba-PURCHASING-and-GENERAL-SERVICES.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vpbaWebsites.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160623,
+		"inputAbbreviatedPath": "\/img\/vpbaWebsites.png",
+		"outputAbbreviatedPath": "\/img\/vpbaWebsites.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1706,14 +1838,14 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Edgar Rodriguez",
+"lastSavedByUser": "Rodriguez, Edgar E",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "edgarr",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_gray"
+	"iconImageName": "globe_orange"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -2195,6 +2327,10 @@
 			}
 		},
 	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -2203,7 +2339,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"couch": {
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2211,27 +2355,75 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"es6": {
+		"eqeq": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"eval": {
+		"evil": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"for": {
+		"forin": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"this": {
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2264,7 +2456,7 @@
 	"lessCreateSourceMap": 0,
 	"lessDisableJavascript": 0,
 	"lessIeCompatibility": 1,
-	"lessOutputStyle": 1,
+	"lessOutputStyle": 0,
 	"lessRelativeURLS": 0,
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,

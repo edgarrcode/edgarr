@@ -131,7 +131,7 @@ img {
 }
 .pictureFrame {
 	background-color: @white;
-	border: 1px solid @gray;
+	
 	padding: 3px;
 	img {
 		display: block;
@@ -160,7 +160,6 @@ img {
 }
 .btn {
 	background-color: @gray;
-	border-radius: 20px;
 	border: none;
 	display: inline-block;
 	padding: 8px 20px;
@@ -171,14 +170,14 @@ img {
 	background-color: @grayDark;
 }
 .primaryBtn:hover {
-	background-color: @blueHover;
+	background-color: @linkHover;
 	color: @white;
 	text-decoration: none;
 }
 .primaryBtn {
 	.uppercase;
 	.boxShadow;
-	background-color: @blue;
+	background-color: @link;
 	color: @white;
 }
 .btnMed {
@@ -200,6 +199,13 @@ h2:target, h3:target, tr:target {
 	background-color: yellow !important;
 }
 
+.card {
+	background-color: @grayLight;
+	padding: 10px;
+}
+a.card {
+	display: block;
+}
 .backToTop {
 	.transition;
 	background: @blueHover;
@@ -445,6 +451,26 @@ td, th {
 		}
 	}
 }
+/*Footer*/
+#footer {
+	background-color: @grayDarkest;
+	color: @white;
+	overflow: hidden;
+	padding: 30px 0;
+	ul {
+		float: right;
+		margin: 0;
+		li {
+			float: left;
+			list-style: none;
+			a {
+				color: @white;
+				padding: 0 20px;
+			}
+		}
+	}
+}
+
 /*Code Sample*/
 .codeSample {
 	font-size: 16px;
@@ -498,9 +524,62 @@ td, th {
     background: url(../img/homeBg.png) #222;
     background-size: 42px;
 }
+.home {
+	.work.section {
+		padding-top: 60px;
+		padding-bottom: 0;
+		img {
+			display: block;
+		}
+	}
+}
+.hertzBg {
+	background-color: #FFD60D;
+}
+/*Screenshots Section*/
+.vpbaScreenshotsSection {
+	padding-bottom: 120px;
+	.flexslider {
+		box-shadow: none;
+		padding: 20px;
+	}
+	.flex-direction-nav a {
+		opacity: 1;
+		background-color: @vpbaBlue;
+	}
+	.flex-direction-nav .flex-prev {
+		left: -10px;
+	}
+	.flex-direction-nav .flex-next {
+		right: -10px;
+	}
+	.flexslider:hover .flex-prev {
+		opacity: 1;
+		left: -10px;
+	}
+	.flexslider:hover .flex-next {
+		opacity: 1;
+		right: -10px;
+	}
+	.flex-control-paging li a {
+		background-color: @vpbaBlue;
+		opacity: .5;
+	}
+	.flex-control-paging li a.flex-active {
+		background-color: @vpbaBlue;
+		opacity: 1;
+	}
+	a.card {
+		color: @vpbaBlue;
+		p {
+			font-size: 16px;
+			font-weight: normal;
+		}
+	}
+}
 /*UTEP VPBA*/
 .vpbaBlueSection {
-	background-color: @vpbaBlueHover;
+	background-color: @vpbaBlue;
 	color: @white;
 }
 .utepBtns {

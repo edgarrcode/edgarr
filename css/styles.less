@@ -459,6 +459,7 @@ td, th {
 	padding: 30px 0;
 	ul {
 		float: right;
+		padding-left: 0;
 		margin: 0;
 		li {
 			float: left;
@@ -471,6 +472,22 @@ td, th {
 	}
 }
 
+@media(max-width: 767px) {
+	body {
+		#footer {
+			ul {
+				float: left;
+				padding-top: 20px;
+			}
+			li a {
+				padding: 20px;
+			}
+			li:first-child a {
+				padding-left: 0;
+			}
+		}
+	}
+}
 /*Code Sample*/
 .codeSample {
 	font-size: 16px;
@@ -524,13 +541,11 @@ td, th {
     background: url(../img/homeBg.png) #222;
     background-size: 42px;
 }
-.home {
-	.work.section {
-		padding-top: 60px;
-		padding-bottom: 0;
-		img {
-			display: block;
-		}
+.work.section {
+	padding-top: 60px;
+	padding-bottom: 0;
+	img {
+		display: block;
 	}
 }
 .hertzBg {

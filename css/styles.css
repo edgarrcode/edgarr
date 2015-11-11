@@ -685,6 +685,7 @@ th {
 }
 #footer ul {
   float: right;
+  padding-left: 0;
   margin: 0;
 }
 #footer ul li {
@@ -694,6 +695,18 @@ th {
 #footer ul li a {
   color: #ffffff;
   padding: 0 20px;
+}
+@media (max-width: 767px) {
+  body #footer ul {
+    float: left;
+    padding-top: 20px;
+  }
+  body #footer li a {
+    padding: 20px;
+  }
+  body #footer li:first-child a {
+    padding-left: 0;
+  }
 }
 /*Code Sample*/
 .codeSample {
@@ -748,11 +761,11 @@ th {
   background: url(../img/homeBg.png) #222222;
   background-size: 42px;
 }
-.home .work.section {
+.work.section {
   padding-top: 60px;
   padding-bottom: 0;
 }
-.home .work.section img {
+.work.section img {
   display: block;
 }
 .hertzBg {
